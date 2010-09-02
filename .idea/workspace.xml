@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="ChangeListManager">
+  <component name="ChangeListManager" verified="true">
     <list default="true" readonly="true" id="17601331-35bf-4f33-a5fc-cc3219605945" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/spik/webapp/HelloWorld.java" afterPath="$PROJECT_DIR$/src/main/java/spik/webapp/SpikWebApplication.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/spik/webapp/BasicServlet.java" afterPath="$PROJECT_DIR$/src/main/java/spik/webapp/BasicServlet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/dictionaries/alistair.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/spik/webapp/BasicServlet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/spik/webapp/SlowFileReader.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/spik/webapp/HelloWorld.java" afterPath="$PROJECT_DIR$/src/main/java/spik/webapp/HelloWorld.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/spik/webapp/Handler.java" />
     </list>
     <ignored path=".idea/workspace.xml" />
     <ignored path="spik.iws" />
@@ -108,10 +107,10 @@
   <component name="FileColors" enabled="true" enabledForTabs="true" />
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="HelloWorld.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/spik/webapp/HelloWorld.java">
+      <file leaf-file-name="SpikWebApplication.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/spik/webapp/SpikWebApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="20" column="65" selection-start="715" selection-end="727" vertical-scroll-proportion="0.0">
+            <state line="7" column="18" selection-start="201" selection-end="201" vertical-scroll-proportion="0.26977688">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -123,9 +122,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/spik/webapp/Handler.java">
           <provider selected="true" editor-type-id="text-editor">
             <state line="22" column="43" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+              <folding />
             </state>
           </provider>
         </entry>
@@ -133,54 +130,16 @@
       <file leaf-file-name="BasicServlet.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/spik/webapp/BasicServlet.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="13" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state line="17" column="43" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SlowFileReader.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="SlowFileReader.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/spik/webapp/SlowFileReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="44" column="0" selection-start="1203" selection-end="1203" vertical-scroll-proportion="0.73994637">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractStringBuilder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home/src.jar!/src/java/lang/AbstractStringBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="99" column="0" selection-start="2773" selection-end="2773" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Arrays.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home/src.jar!/src/java/util/Arrays.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2881" column="0" selection-start="111465" selection-end="111465" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="StringBuilder.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home/src.jar!/src/java/lang/StringBuilder.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="118" column="0" selection-start="4454" selection-end="4454" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractLifeCycle.class" pinned="false" current="false" current-in-tab="false">
-        <entry file="jar://$PROJECT_DIR$/lib/jetty-util-7.1.6.v20100715.jar!/org/eclipse/jetty/util/component/AbstractLifeCycle.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="22" selection-start="1232" selection-end="1232" vertical-scroll-proportion="21.416666">
+            <state line="16" column="31" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -201,9 +160,11 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/spik/webapp/Handler.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spik/webapp/HelloWorld.java" />
-        <option value="$PROJECT_DIR$/src/main/java/spik/webapp/BasicServlet.java" />
         <option value="$PROJECT_DIR$/src/main/java/spik/webapp/SlowFileReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spik/webapp/HelloWorld.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spik/webapp/SpikWebapp.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spik/webapp/SpikWebApplication.java" />
+        <option value="$PROJECT_DIR$/src/main/java/spik/webapp/BasicServlet.java" />
       </list>
     </option>
   </component>
@@ -274,6 +235,20 @@
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spik" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="spik" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
@@ -301,20 +276,20 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="reference.settingsdialog.IDE.editor.colors.Font" />
+    <property name="options.lastSelected" value="fileTemplates" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="dynamic.classpath" value="false" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Application.SlowFileReader">
-    <configuration default="false" name="HelloWorld" type="Application" factoryName="Application" temporary="true">
+  <component name="RunManager" selected="Application.SpikWebApplication">
+    <configuration default="false" name="SpikWebapp" type="Application" factoryName="Application" temporary="true">
       <extension name="snapshooter" />
-      <option name="MAIN_CLASS_NAME" value="spik.webapp.HelloWorld" />
+      <option name="MAIN_CLASS_NAME" value="spik.webapp.SpikWebapp" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -349,6 +324,23 @@
       </RunnerSettings>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Debug" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="SpikWebApplication" type="Application" factoryName="Application" temporary="true">
+      <extension name="snapshooter" />
+      <option name="MAIN_CLASS_NAME" value="spik.webapp.SpikWebApplication" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="spik" />
+      <envs />
+      <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
@@ -460,9 +452,10 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <list size="2">
+    <list size="3">
       <item index="0" class="java.lang.String" itemvalue="Application.HelloWorld" />
       <item index="1" class="java.lang.String" itemvalue="Application.SlowFileReader" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SpikWebApplication" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -470,7 +463,7 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
-  <component name="SvnConfiguration" maxAnnotateRevisions="500">
+  <component name="SvnConfiguration">
     <option name="USER" value="" />
     <option name="PASSWORD" value="" />
     <option name="LAST_MERGED_REVISION" />
@@ -480,30 +473,29 @@
     <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
     <option name="IGNORE_SPACES_IN_MERGE" value="false" />
     <option name="DETECT_NESTED_COPIES" value="false" />
-    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
     <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
     <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
-    <configuration useDefault="true">$PROJECT_DIR$/../../../.subversion_IDEA</configuration>
+    <configuration useDefault="true">$PROJECT_DIR$/../../.subversion</configuration>
     <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
     <supportedVersion>125</supportedVersion>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="22" width="1440" height="835" extended-state="6" />
+    <frame x="6" y="22" width="1498" height="874" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39975095" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16319194" sideWeight="0.5902098" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16287094" sideWeight="0.66880614" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Dependency Viewer" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32307693" sideWeight="0.99899495" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32220796" sideWeight="0.99899495" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -521,8 +513,6 @@
     <option name="PERFORM_ADD_REMOVE_IN_BACKGROUND" value="true" />
     <option name="PERFORM_ROLLBACK_IN_BACKGROUND" value="false" />
     <option name="CHECK_LOCALLY_CHANGED_CONFLICTS_IN_BACKGROUND" value="true" />
-    <option name="ENABLE_BACKGROUND_PROCESSES" value="false" />
-    <option name="CHANGED_ON_SERVER_INTERVAL" value="60" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="LAST_COMMIT_MESSAGE" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
@@ -546,65 +536,52 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$PROJECT_DIR$/lib/jetty-util-7.1.6.v20100715.jar!/org/eclipse/jetty/util/component/AbstractLifeCycle.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="22" selection-start="1232" selection-end="1232" vertical-scroll-proportion="21.416666">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/spik/webapp/Handler.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="43" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
+        <state line="22" column="43" selection-start="814" selection-end="814" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home/src.jar!/src/java/lang/StringBuilder.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/spik/webapp/SlowFileReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="118" column="0" selection-start="4454" selection-end="4454" vertical-scroll-proportion="0.0">
+        <state line="16" column="31" selection-start="359" selection-end="359" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home/src.jar!/src/java/lang/AbstractStringBuilder.java">
+    <entry file="jar://$PROJECT_DIR$/lib/jetty-server-7.1.6.v20100715.jar!/org/eclipse/jetty/server/Server.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="0" selection-start="2773" selection-end="2773" vertical-scroll-proportion="0.0">
+        <state line="53" column="16" selection-start="2557" selection-end="2557" vertical-scroll-proportion="0.33263597">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="jar:///System/Library/Frameworks/JavaVM.framework/Versions/1.6.0/Home/src.jar!/src/java/util/Arrays.java">
+    <entry file="jar://$PROJECT_DIR$/lib/jetty-util-7.1.6.v20100715.jar!/org/eclipse/jetty/util/component/AbstractLifeCycle.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2881" column="0" selection-start="111465" selection-end="111465" vertical-scroll-proportion="0.0">
+        <state line="27" column="22" selection-start="1225" selection-end="1230" vertical-scroll-proportion="0.3326572">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spik/webapp/HelloWorld.java">
+    <entry file="jar://$PROJECT_DIR$/lib/jetty-servlet-7.1.6.v20100715.jar!/org/eclipse/jetty/servlet/ServletHolder.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="20" column="65" selection-start="715" selection-end="727" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="21" column="11" selection-start="1058" selection-end="1071" vertical-scroll-proportion="0.33263597">
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/spik/webapp/BasicServlet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="13" selection-start="420" selection-end="420" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state line="17" column="43" selection-start="578" selection-end="578" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/spik/webapp/SlowFileReader.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/spik/webapp/SpikWebApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="44" column="0" selection-start="1203" selection-end="1203" vertical-scroll-proportion="0.73994637">
-          <folding />
+        <state line="7" column="18" selection-start="201" selection-end="201" vertical-scroll-proportion="0.26977688">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
