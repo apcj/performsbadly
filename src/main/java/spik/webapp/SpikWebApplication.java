@@ -10,7 +10,8 @@ public class SpikWebApplication {
         try {
             ServletContextHandler context = new ServletContextHandler(ServletContextHandler.SESSIONS);
             context.setContextPath("/");
-            context.addServlet(new ServletHolder(new BasicServlet()), "/*");
+            context.addServlet(new ServletHolder(new BasicServlet()), "/basic");
+            context.addServlet(new ServletHolder(new MathsServlet()), "/maths");
 
             Server server = new Server(8080);
             server.setHandler(context);
