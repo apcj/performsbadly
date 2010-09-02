@@ -1,8 +1,14 @@
 package spik.webapp;
 
+import org.eclipse.jetty.server.Server;
+
 public class HelloWorld {
 
     public static void main(String[] arguments) {
-        System.out.println("Hello World");
+        try {
+            new Server().start();
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
     }
 }
