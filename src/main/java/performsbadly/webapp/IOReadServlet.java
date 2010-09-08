@@ -1,4 +1,4 @@
-package spik.webapp;
+package performsbadly.webapp;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;

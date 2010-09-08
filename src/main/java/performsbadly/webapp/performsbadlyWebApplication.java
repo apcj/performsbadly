@@ -1,10 +1,10 @@
-package spik.webapp;
+package performsbadly.webapp;
 
 import org.eclipse.jetty.server.Server;
 import org.eclipse.jetty.servlet.ServletContextHandler;
 import org.eclipse.jetty.servlet.ServletHolder;
 
-public class SpikWebApplication {
+public class performsbadlyWebApplication {
 
     public static void main(String[] arguments) {
         try {
