@@ -21,7 +21,7 @@ public class MemoryLeakServlet {
     private String message;
     private List<String> importantCollectionOfStuff;
     private String sillyString;
-    private static final int LEAKYNESS = 100;
+    private static final int LEAKYNESS = 1000;
 
     public MemoryLeakServlet() {
         this.message = "Mmmmmn Leaky";
