@@ -25,7 +25,7 @@ public class MemoryLeakServlet extends HttpServlet {
     private static final int LEAKYNESS = 100;
 
     public MemoryLeakServlet() {
-        this.message = "Mmmmmn Leaky";
+        this.message = "Gruyere packed and dispatched";
         importantCollectionOfStuff = new ArrayList<String>();
         sillyString = "This is a silly string.";
     }

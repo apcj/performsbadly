@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class BasicServlet extends HttpServlet {
 
-    private String message = "Hello from a basic servlet";
+    private String message = "Cheddar packed and dispatched";
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/plain");

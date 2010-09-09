@@ -8,6 +8,7 @@ import java.io.*;
 import java.util.Scanner;
 
 public class IOReadServlet extends HttpServlet {
+    private String message="Brie packed and dispatched";
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         response.setContentType("text/plain");
@@ -20,7 +21,7 @@ public class IOReadServlet extends HttpServlet {
         String text = readText();
         long finish = System.currentTimeMillis();
         long time = finish - start;
-        return text + spacer + "Time taken: " + time + spacer;
+        return message;//text + spacer + "Time taken: " + time + spacer;
     }
 
     private String readText() {

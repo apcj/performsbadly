@@ -9,7 +9,7 @@ import java.math.BigInteger;
 
 public class MathsServlet extends HttpServlet {
 
-    private String message = "I have done some maths";
+    private String message = "Camembert packed and dispatched";
 
     protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
         doSomeMaths();
