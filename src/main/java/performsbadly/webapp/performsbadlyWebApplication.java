@@ -10,10 +10,12 @@ public class performsbadlyWebApplication {
         try {
             ServletContextHandler context = new ServletContextHandler(ServletContextHandler.SESSIONS);
             context.setContextPath("/");
-            context.addServlet(new ServletHolder(new BasicServlet()), "/cheddar");
-            context.addServlet(new ServletHolder(new MathsServlet()), "/camembert");
-            context.addServlet(new ServletHolder(new IOReadServlet()), "/brie");
-            context.addServlet(new ServletHolder(new MemoryLeakServlet()), "/gruyere");
+            context.addServlet(new ServletHolder(new BasicServlet()),"/cheddar");
+            context.addServlet(new ServletHolder(new MathsServlet()),"/camembert");
+            context.addServlet(new ServletHolder(new IOReadServlet()),"/brie");
+            context.addServlet(new ServletHolder(new MemoryLeakServlet()),"/gruyere");
+            context.addServlet(new ServletHolder(new ResourceContentionServlet()),"/emmental");
+            context.addServlet(new ServletHolder(new PoorResponseTimeServlet()),"/stilton");
 
             Server server = new Server(8080);
             server.setHandler(context);

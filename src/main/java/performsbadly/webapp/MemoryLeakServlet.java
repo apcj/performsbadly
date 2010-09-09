@@ -22,7 +22,7 @@ public class MemoryLeakServlet extends HttpServlet {
     private String message;
     private List<String> importantCollectionOfStuff;
     private String sillyString;
-    private static final int LEAKYNESS = 1000;
+    private static final int LEAKYNESS = 100;
 
     public MemoryLeakServlet() {
         this.message = "Mmmmmn Leaky";
