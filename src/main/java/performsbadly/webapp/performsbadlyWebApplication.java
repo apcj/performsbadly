@@ -13,6 +13,7 @@ public class performsbadlyWebApplication {
             context.addServlet(new ServletHolder(new BasicServlet()), "/cheddar");
             context.addServlet(new ServletHolder(new MathsServlet()), "/camembert");
             context.addServlet(new ServletHolder(new IOReadServlet()), "/brie");
+            context.addServlet(new ServletHolder(new MemoryLeakServlet()), "/gruyere");
 
             Server server = new Server(8080);
             server.setHandler(context);
